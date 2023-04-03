@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="fontfamilyproperty.css">
+	<title>fontfamilyproperty</title>
+</head>
+<body>
+<p class = "serif">
+	this is a paragraph shown in serif font.
+</p>
+<p class = "sansserif">
+	this is a paragraph shown in sansserif font.
+</p>
+<p class = "monospace">
+	this is a paragraph shown in monospace font.
+</p>
+<p class = "cursive">
+	this is a paragraph shown in cursive font.
+</p>
+<p class = "fantasy">
+	this is a paragraph shown in fantasy font.
+</p>
+<hr>
+<!---->
+<br>
+<br>
+<p class = "small">
+	Paragraph text set to be small
+</p>
+<p class = "medium">
+	Paragraph text set to be medium
+</p>
+<p class = "large">
+	Paragraph text set to be large
+</p>
+<p class = "xlarge">
+	Paragraph text set to be xlarge
+</p>
+
+<p class = "larger">
+	Paragraph text set to be xxlarger
+</p><hr>
+<!--fontsizeproperty can be increased by pixels(px) or em
+[em = pixels/16]  20px ==1.25 em-->
+<h1 style="font-size: 20px;">Testing pixels size</h1>
+<h1 style="font-size: 1.25em;">Testing pixels size</h1>
+<h1 style="font-size: 2em;">Testing pixels size</h1>
+<h1 style="font-size: 32px;">Testing pixels size</h1>
+<hr>
+<p class = "italic">
+	This is a Paragraph in italic style. 
+</p>
+<hr>
+<p style="font-style: normal; font-size: 20px;"> this paragraph is normal</p>
+<p style="font-style: italic; font-size: 20px;"> this paragraph is italic</p>
+<p style="font-style: oblique; font-size: 20px;"> this paragraph is oblique</p>
+<hr>
+<p>Italic style with <i>italic keyword</i></p>
+<!--31.10.2022-->
+<p class="light">this is a font with a lighter weight</p>
+<p class="bold">this is a font with a bold weight</p>
+<p class="bolder">this is a font with a bolder weight</p>
+<hr>
+<p class="normal"> paragraph font variant set to normal</p>
+<p class="small"> paragraph font variant set to small-caps</p>
+<p class="inherit"> paragraph font variant set to inherit</p>
+<hr>
+<p class="cproperty"> the  text inside the paragraph is green</p>
+<p>the paragraph is black (by default)</p>
+<!--fontcolor property by rgb and hexadecimal-->
+<h1 class="hexadeci">this is a heading</h1>
+<p class="rgb"> this is a paragraph</p>
+<hr>
+<!--textalign property-->
+<p>this is aligned to <strong>left</strong></p>
+<p class="right">this paragraph is aligned to <strong>right.</strong></p>
+<p class="center"> this paragraph is aligned to <strong>center.</strong></p>
+<p class="justify">In North American television, a series is a connected set of television program episodes that run under the same title, possibly spanning many seasons. Since the late 1960s, this broadcast programming schedule typically includes between 20 and 26 episodes. Before then, a regular television season could average at least 30 episodes, and some TV series may have had as many as 39 episodes in a season.</p>
+<hr>
+<!--vertical text aligning property -->
+<table border="1" cellpadding="2" cellspacing="0" style="height:150px;">
+	<tr>
+		<td class="top">Top</td>
+		<td class="middle">"middle"</td>
+		<td class = "bottom"> "bottom"</td>
+	</tr>
+</table>
+<hr>
+<p>this is an <span class="baseline">inline text</span></p>
+<p>this is an <span class="sub">subline</span>text</p>
+<p>this is an <span class="super">superline</span>text</p>
+<p>this is an <span class="pixel">pixel</span>text</p>
+<hr>
+<div class="main">
+	<div class="paragraph">
+		this text is aligned to the middle
+	</div>
+	
+</div>
+<!--text decoration property-->
+<p class="none"> this is default style of the text</p>
+<p class="Inherit"> this is default style of the text</p>
+<p class="overline"> this is default style of the text</p>
+<p class="underline"> this is default style of the text</p>
+<p class="line-through"> this is default style of the text</p>
+<p style="text-decoration: overline underline line-through;">this is mixed style of the text</p>
+<p>this is linethrough substitution of an <s>html tag</s></p>
+<p class="blink"> this is blink substitution of an html tag</p>
+<hr>
+<p class="indent">this is an example of <strong>text-indent</strong>property.first line of our text is indented to the right in 60px.
+Besides pixels you can also use other measurement
+units,
+like pt,cm,em, etc..</p>
+<p class="nindent">this is an example of <i>negative</i><strong>text-indent</strong>property.first line of our text is indented to the right in 60px.
+Besides pixels you can also use other measurement
+units,
+like pt,cm,em, etc..</p>
+<hr>
+<!--text shadow propety-->
+<h1 class="textshadow"> text shadow example</h1>
+<hr>
+<h1 class="textshadow2">text shadow with blur effect</h1>
+<hr>
+<p class="capitalize">
+    The value capitalize transforms the first 
+    character in each word to uppercase; 
+    all other characters remain unaffected.
+</p>
+<p class="lowercase">This value transforms all characters to lowercase.</p>
+<hr>
+<!-- letter spacing-->
+<p class="normaL"> this is paragraph has no additional letter spacing applied</p>
+<p class="positive"> this paragraph is letter spaced at 4px</p>
+<p class="negative">this paragraph is letter spaced at -1.5px</p>
+<hr>
+<p class="normal">This paragraph has no additional word-spacing applied.</p>
+<p class="px">This paragraph is word-spaced at 30px.</p>
+<hr>
+<!-- word spacing-->
+<p class="POsitive">This paragraph is word-spaced at 20px.</p>
+<p class="NEgative">This paragraph is word-spaced at -5px.</p>
+<hr>
+<p class="whitespacing">
+	this paragraph has     			multiple spaces 			and a lilne break, but ir will be ignored , as we used the nowrap value.
+</p>
+<!--whitespacing2-->
+<p class="pre"> 
+In the markup we have multiple            spaces 
+and a line break. 
+</p>
+<p class="preline"> 
+In the markup we have multiple            spaces 
+and a line break, but in the result multiple spaces are ignored. 
+</p>
+<p class="prewrap"> 
+In the markup we have              multiple 
+spaces and a line break.
+</p>
+<hr>
+</body>
+</html>
